@@ -1,5 +1,5 @@
 {
-    "name": "imsglobal/lti",
+    "name": "cefis/lti-1-tool",
     "version" : "3.0.2",
     "description": "LTI Tool Provider Library",
     "keywords": ["lti"],
