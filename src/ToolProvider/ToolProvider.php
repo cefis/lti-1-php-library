@@ -315,9 +315,6 @@ class ToolProvider
         $this->dataConnector = $dataConnector;
         $this->ok = !is_null($this->dataConnector);
 
-// Set debug mode
-        $this->debugMode = isset($_POST['custom_debug']) && (strtolower($_POST['custom_debug']) === 'true');
-
 // Set return URL if available
         if (isset($_POST['launch_presentation_return_url'])) {
             $this->returnUrl = $_POST['launch_presentation_return_url'];
